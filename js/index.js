@@ -36,7 +36,7 @@ const renderFromAnchor = async () => {
 			return {
 				"content": marked.parse((index>0 ?  '## ':'') + page),
 				"title":  index>0 ?  page.split('\n')[0].trim() : 'Home',
-				"anchor": "A"+(index+1000)
+				"anchor": "P"+(index).toString().padStart(4, '0')
 			}
 		} )
 
@@ -60,7 +60,7 @@ const renderFromAnchor = async () => {
 	
 	const hash = window.location.hash
 	const currentPageAnchor = hash.length===0 ? pages[0]['anchor']:  hash.substring(1)
-	const currentPageIndex =  parseInt(currentPageAnchor.substring(1)) - 1000
+	const currentPageIndex =  parseInt(currentPageAnchor.substring(1))
 	const currentPageContent = pages[currentPageIndex]['content'] //Default path. Will be used if an array is given as list
 	const currentPageTitle = pages[currentPageIndex]['title']
 
