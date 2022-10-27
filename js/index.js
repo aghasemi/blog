@@ -11,7 +11,13 @@ const loadCSS = (url, callback) => {
     return el;
 }
 
-
+function tryParseJson(jsonString, defaultObject) {
+    try {
+        return JSON.parse(jsonString);
+    } catch (e) {
+        return defaultObject;
+    }
+}
 
 let config = undefined
 let pages = undefined
@@ -19,16 +25,14 @@ let pages = undefined
 const renderFromAnchor = async () => {
 	
 	if(config===undefined) {
-		config = await (await fetch(`./config.json`)).json()
-		const styleFile = config['styleFile'] || './css/style.css'
+		config =  tryParseJson(await (await fetch(`./config.json`)).text(), {})
+		const styleFile = config['styleFile'] || './css/styles.css'
 		loadCSS(styleFile)
 	}
 
-	//const content = document.createElement( 'html' )
-	//content.innerHTML = marked.parse(await (await fetch(`./Home.md`)).text())
-
 	if(pages===undefined) {
-		pages =  (await (await fetch(`./Content.md`)).text()).split('\n## ').map( (page, index) => {
+		const contentFile = config['content'] || './Content.md' 
+		pages =  (await (await fetch(contentFile)).text()).split('\n## ').map( (page, index) => {
 			return {
 				"content": marked.parse((index>0 ?  '## ':'') + page),
 				"title":  index>0 ?  page.split('\n')[0].trim() : 'Home',
@@ -38,8 +42,8 @@ const renderFromAnchor = async () => {
 
 
 	
-		const siteName = config['siteName']
-		const copyrightMarkdown = config['copyrightNotice']
+		const siteName = config['siteName'] || ''
+		const copyrightMarkdown = config['copyrightNotice'] || ''
 		
 		document.getElementById('my-name').innerHTML = siteName
 		document.getElementById('copyright-holder').innerHTML = marked.parseInline(copyrightMarkdown)
@@ -62,7 +66,7 @@ const renderFromAnchor = async () => {
 
 	
 
-	document.title =  `${config['siteName']} - ${currentPageTitle}`;
+	document.title =  config['siteName']===undefined ? currentPageTitle : `${config['siteName']} - ${currentPageTitle}`;
 	document.getElementById('content').innerHTML = currentPageContent;
 	document.getElementById('page-title').innerHTML = currentPageTitle
 
