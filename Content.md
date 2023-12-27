@@ -24,8 +24,7 @@ final x = new MyClass()
 ```
 is no longer syntactically wrong, but simply a contraction of `final var x = new MyClass()`. This is purely a syntactic sugar, resolved at compile-time by the compiler or even some "pre-processor".
 
-7. I cannot think of any scenario where this change breaks compatibility with existing codebases. I may be wrong, but it seems to me that `final` is never followed by a variable name in valid Java code. Does it? 
-
+7. I cannot think of any scenario where this change breaks compatibility with existing codebases. I may be wrong, but it seems to me that `final` is never followed by a variable name in valid Java code. Does it?
 To me, such a change could be strong encouragement and motivator for following best practices and writing more robust Java code.
 
 ## Post #1
