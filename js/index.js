@@ -67,23 +67,24 @@ const renderFromAnchor = async () => {
 
 	
 
+	contentHTML = document.getElementById('content')
+
 	document.title =  config['siteName']===undefined ? currentPageTitle : `${config['siteName']} - ${currentPageTitle}`;
-	document.getElementById('content').innerHTML = currentPageContent;
+	contentHTML.innerHTML = currentPageContent;
 	document.getElementById('page-title').innerHTML = currentPageTitle
 
 	if (currentPageIndex===0 && (config['showTOC'] || false)) //Home
 	{
 		console.log('ToC being created')
-		document.getElementById('content').innerHTML += '<ol type="I">'
 
-		pages.slice(1).forEach( (page,i) => {
+		posts = pages.slice(1).map( (page,i) => {
 			const pageAnchor = page['anchor']; //Remove all whitespaces
 			const pageTitle = page['title'];
 			
-			document.getElementById('content').innerHTML += `<li><a class="p-3" href="#${pageAnchor}" >${pageTitle}</a></li>\n`
+			return `<li><a class="p-3" href="#${pageAnchor}" >${pageTitle}</a></li>\n`
 		});
 
-		document.getElementById('content').innerHTML += '</ol>'
+		contentHTML.innerHTML += '<ol type="I">' + posts.join(' ') +  '</ol>'
 	}
 
 	
