@@ -1,5 +1,28 @@
 
-This is the home page of my blog
+This is my blog.
+
+## What if a year always started at the first day of the week?
+
+1. In what type of calendar would it be guaranteed that the first day of the year is the first day of the week (e.g. Monday) as well? For that to happen, we need the length of the year to be a multiple of 7, obviously. Closest multiple of 7 to 365 is 364.
+
+2. 364 has the extra benefit of being a multiple of 28. It means a 364-day year can be divided into 13 months of equal (28) days. This makes a lot of things easier, e.g. in project planning, sprint lengths, and vacations among others. It is probably also more OCD-friendly.
+
+3. A year is more precisely 365.2422 days. We round it to 365 days and account for the fraction with the help of leap days. In a 364-day year, we need to calculate leap years differently.
+
+4. Every 364-day year has 1.2422 days of excess that has to be accounted for later. In order to preserve the _year-week harmony_ of our calendar, we need to have not a leap day, but a leap week. This leap week will happen every six years, with a fraction of _0.4532_ days (_6×1.2422=7.4532_).
+
+5. We, however, take things one step further and aim to preserve not just year-week harmony, but also a year-month harmony: We _reset_ the excess fractions not with a leap week, but with a leap month. Every 23 years (_23×1.2422=28.5706_), there will be a leap 14th month in the calendar. A deviation of _0.5706_ days is still being accumulated every 23 years from the solar cycle. 
+
+6. We still need to account for the accumulating fractions from the leap month calculations, or seasons will (slowly) start to shift. We still want to preserve the year-month harmony. Hence we should wait until the accumulated deviation exceeds 28 days. This happens after 50 leap years, or 1150 years in total: _50×23=1150_. Therefore, every 1150 years of the 364-day calendar, there will be two leap months instead of one. 
+
+7. The calculation in the previous step still leaves a residual of _0.53_ days (_50×0.5706=28.53_). If we want to account for this as well and still keep the year-month harmony, we need to add a third leap month for every 53 occurrences of the second leap month: _53×0.53=28.09_. This means every 60950 (_23*50*53_) years, there will be three leap months and a total of sixteen 28-day months in this hypothetical calendar year.
+
+8. The precision we have so far should be enough for ~~all~~most practical purposes. However, going one step further we can have a four-leap-months year every 19,016,400 years: _312×0.09=28.08_ and _23×50×53×312=19016400_.
+
+9. In summary, a 364-day year is perfectly divided into 13 equal-length months of 28 days, with each month comprising exactly 4 weeks. Every 23 years there will be a leap year which has one extra month, every 1150 years a leap year with two extra months, and every 60950 years a leap year with three extra months.
+
+
+
 
 ## Proposal for an Alternative Syntax for Local Variable Type Inference in Java
 
@@ -25,8 +48,9 @@ final x = new MyClass()
 is no longer syntactically wrong, but simply a contraction of `final var x = new MyClass()`. This is purely a syntactic sugar, resolved at compile-time by the compiler or even some "pre-processor".
 
 7. I cannot think of any scenario where this change breaks compatibility with existing codebases. I may be wrong, but it seems to me that `final` is never followed by a variable name in valid Java code. Does it?
-To me, such a change could be strong encouragement and motivator for following best practices and writing more robust Java code.
 
-## Post #1
+8. To me, such a change could be strong encouragement and motivator for following best practices and writing more robust Java code.
+
+## First Post
 
 This is my first post
