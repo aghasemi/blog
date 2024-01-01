@@ -33,7 +33,7 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 
 8. To me, such a change could be strong encouragement and motivator for following best practices and writing more robust Java code.
 
-## What If a Year Always Started at the First Day of the Week?
+## What If Every Year Started on the First Day of the Week?
 
 1. In what type of calendar would it be guaranteed that the first day of the year is the first day of the week (e.g. Monday) as well? For that to happen, we need the length of the year to be a multiple of 7, obviously. Closest multiple of 7 to 365 is 364.
 
