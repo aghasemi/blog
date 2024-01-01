@@ -6,7 +6,7 @@ This is my blog.
 This is my first post
 
 
-## Proposal for an Alternative Syntax for Local Variable Type Inference in Java
+## An Alternative Syntax for Local Variable Type Inference in Java
 
 1. Since Java 10 and [JEP 286](https://openjdk.org/jeps/286), Java has had local variable type inference with the ~~keyword~~reserved type name `var`:
 ```java
@@ -33,7 +33,7 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 
 8. To me, such a change could be strong encouragement and motivator for following best practices and writing more robust Java code.
 
-## What if a year always started at the first day of the week?
+## What If a Year Always Started at the First Day of the Week?
 
 1. In what type of calendar would it be guaranteed that the first day of the year is the first day of the week (e.g. Monday) as well? For that to happen, we need the length of the year to be a multiple of 7, obviously. Closest multiple of 7 to 365 is 364.
 
