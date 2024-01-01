@@ -32,11 +32,12 @@ const renderFromAnchor = async () => {
 
 	if(pages===undefined) {
 		const contentFile = config['content'] || './Content.md' 
-		pages =  (await (await fetch(contentFile)).text()).split('\n## ').map( (page, index) => {
+		pages = (await (await fetch(contentFile)).text()).split('\n## ')
+		pages =  pages.map( (page, index) => {
 			return {
 				"content": marked.parse((index>0 ?  '## ':'') + page),
 				"title":  index>0 ?  page.split('\n')[0].trim() : 'Home',
-				"anchor": "P"+(index).toString().padStart(4, '0')
+				"anchor": "P"+(index ).toString().padStart(4, '0')
 			}
 		} )
 
