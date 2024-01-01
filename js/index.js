@@ -74,7 +74,7 @@ const renderFromAnchor = async () => {
 	if (currentPageIndex===0 && (config['showTOC'] || false)) //Home
 	{
 		console.log('ToC being created')
-		document.getElementById('content').innerHTML += '<ul>'
+		document.getElementById('content').innerHTML += '<ol>'
 
 		pages.slice(1).forEach( (page,i) => {
 			const pageAnchor = page['anchor']; //Remove all whitespaces
@@ -83,7 +83,7 @@ const renderFromAnchor = async () => {
 			document.getElementById('content').innerHTML += `<li><a class="p-3" href="#${pageAnchor}" >${pageTitle}</a></li>\n`
 		});
 
-		document.getElementById('content').innerHTML += '</ul>'
+		document.getElementById('content').innerHTML += '</ol>'
 	}
 
 	
