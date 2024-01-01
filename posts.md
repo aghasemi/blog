@@ -53,5 +53,5 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 
 9. In summary, a 364-day year is perfectly divided into 13 equal-length months of 28 days, with each month comprising exactly 4 weeks. Every 23 years there will be a leap year which has one extra month, every 1150 years a leap year with two extra months, and every 60950 years a leap year with three extra months.
 
-## _Bunt_ is my favourite German word
+## Bunt is my favourite German word
 
