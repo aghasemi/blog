@@ -51,7 +51,7 @@ const renderFromAnchor = async () => {
 		document.getElementById('pages').innerHTML =''
 
 		
-		pages.forEach( (page,i) => {
+		pages.slice(0,1).concat(pages.slice(1).reverse()).forEach( (page,i) => {
 			const pageAnchor = page['anchor']; //Remove all whitespaces
 			const pageTitle = page['title'];
 			document.getElementById('pages').innerHTML += `<a class="list-group-item list-group-item-action list-group-item-light p-3" href="#${pageAnchor}" >${pageTitle}</a>\n`
@@ -82,7 +82,7 @@ const renderFromAnchor = async () => {
 			const pageTitle = page['title'];
 			
 			return `<li><a class="p-3" href="#${pageAnchor}" >${pageTitle}</a></li>\n`
-		});
+		}).reverse();
 
 		contentHTML.innerHTML += '<ol type="I">' + posts.join(' ') +  '</ol>'
 	}
