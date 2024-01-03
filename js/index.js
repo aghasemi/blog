@@ -54,12 +54,12 @@ const renderFromAnchor = async () => {
 		pages.slice(0,1).concat(pages.slice(1).reverse()).forEach( (page,i) => {
 			const pageAnchor = page['anchor']; //Remove all whitespaces
 			const pageTitle = page['title'];
-			document.getElementById('pages').innerHTML += `<a class="list-group-item list-group-item-action list-group-item-light p-3" href="#${pageAnchor}" >${pageTitle}</a>\n`
+			document.getElementById('pages').innerHTML += `<a class="list-group-item list-group-item-action list-group-item-light p-3" href="?p=${pageAnchor}" >${pageTitle}</a>\n`
 		});
 	}
 	
 	
-	const hash = window.location.hash
+	const hash = new URL(document.location).searchParams.get('p') || ''
 	const currentPageAnchor = hash.length===0 ? pages[0]['anchor']:  hash.substring(1)
 	const currentPageIndex =  parseInt(currentPageAnchor.substring(1))
 	const currentPageContent = pages[currentPageIndex]['content'] //Default path. Will be used if an array is given as list
@@ -81,7 +81,7 @@ const renderFromAnchor = async () => {
 			const pageAnchor = page['anchor']; //Remove all whitespaces
 			const pageTitle = page['title'];
 			
-			return `<li><a class="p-3" href="#${pageAnchor}" >${pageTitle}</a></li>\n`
+			return `<li><a class="p-3" href="?p=${pageAnchor}" >${pageTitle}</a></li>\n`
 		}).reverse();
 
 		contentHTML.innerHTML += '<ol type="I">' + posts.join(' ') +  '</ol>'
