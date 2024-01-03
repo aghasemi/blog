@@ -56,21 +56,15 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 ## Bunt is My Favourite German Word
 
 1. Internet has an abundance of lame jokes about the German language. They mostly make fun of the length and pronunciation of German words, some times going the extra miles of bending the reality.
-
 2. I have been learning German for almost a decade, and have obviously had may fair share of headaches, but around grammar mostly: Those random Ns suffixing masculine nouns, the arbitrary order of parts of a sentence, or the 16 words for definitive article. 
-
 3. Regarding the vocabulary, although the words are mostly more difficult in memorisation, there are some nice surprises as well. An example that I always mention in word-length discussions is _oft_ for Often. It's also shorter than French _Parfois_, and maybe also from some other translations. 
-
 4. My _"favourite"_ German word is however _bunt_, meaning colourful. I like it for some reasons:
-   1. It is short, shorter than English colourful or French coloré, or probably many other _"neighbouring"_ translations".
+   1. It is short, shorter than English colourful or French coloré, or probably many other _"neighbouring"_ translations.
    2. It does not look like having been derived from the word for colour (_Farb_). It is a dedicated word. I haven't seen this in other languages I have a clue about: In all of them the word for colourful is derived from the word for colour.
-
 5. Looking into the [Etymological roots of the word](https://en.wiktionary.org/wiki/bunt#German) makes it even more interesting:
    1.  It is derived from Latin _punctus_, which is also the root of the English word point. 
    2.  The original (now obsolete) meaning also seems to have been closer to the English relative: [spotted; speckled](https://en.wiktionary.org/wiki/bunt#Adjective).
-   
 6. Therefore, it seems the meaning of _"bunt"_ in German has over time evolved and generalised, from original _"full of spots"_ to the more general _full of colours_.
-
 7. Another very interesting German word/expression is _"bitte"_, mostly for the diversity of the situations in which it is used. It reminds me of [خواهش می‌کنم
 /xâheš mi-konam](https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%D9%87%D8%B4_%D9%85%DB%8C%E2%80%8C%DA%A9%D9%86%D9%85) in my native Persian. 
 
