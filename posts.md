@@ -69,3 +69,14 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 /xâheš mi-konam](https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%D9%87%D8%B4_%D9%85%DB%8C%E2%80%8C%DA%A9%D9%86%D9%85) in my native Persian. 
 
 
+## In Memory of Late Niklaus Wirth
+
+1. I have a bizarre aptitude in memorising isolated, seemingly non-important pieces of information from a bigger event or body of knowledge, and that for a long time, usually decades.
+2. When I started to get interested in programming in late 90s, I didn't have a computer yet. It was all books and I consumed their content with the enthusiasm expected from 12 years old kid.
+3. One book in particular was not about learning programming, but more of an "introduction to computers" in general, with a lot of history in it up until 90s. It was in this book that I first learned that the BASIC programming language was created by John Kemeny and Thomas Kurtz, Fortran by John Backus, C by Dennis Ritchie and Ken Thompson, and Pascal by Niklaus Wirth. I have never forgotten those names in the past 25 years, despite the fact that they had no meaning to me other than random pieces of information. So were mentions of obsolete programming languages such as Forth and SNOBOL, that I didn't see anywhere else beyond that one book, at least until many years later.   
+4. One of those names, however, materialised eventually into far more than a piece of information. In 2011, destiny placed me in Lausanne, Switzerland to start a PhD in computer science, and just a few months in, I saw an announcement that Professor Niklaus Wirth of ETH was coming to Lausanne for a keynote. 
+4. I didn't evn know that Wirth was Swiss. Seeing that name was like a message being thrown from my younger self, at the satrt of the journey that ended up in EPFL.
+5. I attended the talk. I don't remember at all what it was about, but I remember him saying something along the lines of "I was a Professor when a byte was 6 bits". 
+6. At the end of the talk, I approached him and asked to have a photo of him. I don't know what he was thinking, or how much he was used to being asked for a photograph, but I did it anyway. Someone took the photo using my pre-smartphone-era Nokia N70.
+7. That photo got lost later, I never realised when and how. I regret that a lot, but I feel extremely lucky to have the chance to meet Niklaus Wirth in person. He made programming approachable to many generations, including mine, although a lot of us never became seasoned Pascal programmers. 
+8. Professor Niklaus Wirth passed away on January 1st, 2024, after 90 years of fruitful life. He was professionally active well until the past few years. I wish I end up like that.

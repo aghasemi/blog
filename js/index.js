@@ -81,7 +81,7 @@ const renderFromAnchor = async () => {
 			const pageAnchor = page['anchor']; //Remove all whitespaces
 			const pageTitle = page['title'];
 			
-			return `<li><a class="p-3" href="?p=${pageAnchor}" >${pageTitle}</a></li>\n`
+			return `<li><a class="p-3" href="?p=${pageAnchor}" >${pageTitle}</a><br/></li>\n`
 		}).reverse();
 
 		contentHTML.innerHTML += '<ol type="I">' + posts.join(' ') +  '</ol>'
