@@ -20,13 +20,17 @@ Local variable type inference has helped in reducing verbosity and unnecessary t
 > If you have `var` in your code, think again. And again and again. And again, until you find a way to do it with `val`.
 
 4. Java only has `var`, hence immutability is not "default". Of course, one can define immutable type-inferred variables using `final var`, but that's two keywords instead of one, naturally reducing its usage and definitely not "the norm".
+
 5. Java has not added a second keyword for local variable type inference (so far). A strong counter-argument is that learning semantics of two keywords for type inference is unnecessary cognitive load when one cas simply add `final` as modifier: Every Java programmer should know what `final var` does, but they would have to learn what `val` does, if there is such a keyword.  
+
 6. However, there may be a way to do immutable variable type inference without introducing a new keyword: What if we could use `final` as both the type name (i.e. in lieu of `var`) and modifier, to define an immutable variable? It means a declaration such as 
 ```java
 final x = new MyClass()
 ```
 is no longer syntactically wrong, but simply a contraction of `final var x = new MyClass()`. This is purely a syntactic sugar, resolved at compile-time by the compiler or even some "pre-processor".
+
 7. I cannot think of any scenario where this change breaks compatibility with existing codebases. I may be wrong, but it seems to me that `final` is never followed by a variable name in valid Java code. Does it?
+
 8. To me, such a change could be strong encouragement and motivator for following best practices and writing more robust Java code.
 
 ## What If Every Year Started on the First Day of the Week?
@@ -68,11 +72,18 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 ## In Memory of Late Niklaus Wirth
 
 1. I have a bizarre aptitude in memorising isolated, seemingly non-important pieces of information from a bigger event or body of knowledge, and that for a long time, usually decades.
+
 2. When I started to get interested in programming in late 90s, I didn't have a computer yet. It was all books and I consumed their content with the enthusiasm expected from 12 years old kid.
+
 3. One book in particular was not about learning programming, but more of an "introduction to computers" in general, with a lot of history in it up until 90s. It was in this book that I first learned that the BASIC programming language was created by John Kemeny and Thomas Kurtz, Fortran by John Backus, C by Dennis Ritchie and Ken Thompson, and Pascal by Niklaus Wirth. I have never forgotten those names in the past 25 years, despite the fact that they had no meaning to me other than random pieces of information. So were mentions of some very niche programming languages such as Forth and SNOBOL, that I didn't see anywhere else beyond that one book, at least until many years later.   
+
 4. One of those names, however, materialised eventually into far more than a piece of information. In 2011, destiny placed me in Lausanne, Switzerland to start a PhD in computer science, and just a few months in, I saw an announcement that Professor Niklaus Wirth of ETH was coming to Lausanne for a keynote. 
+
 4. I didn't evn know that Wirth was Swiss. Seeing that name was like a message being thrown from my younger self, at the satrt of the journey that ended up in EPFL.
+
 5. I attended the talk. I don't remember at all what it was about, but I remember him saying something along the lines of "I was a Professor when a byte was 6 bits". 
+
 6. At the end of the talk, I approached him and asked to have a photo of him. I don't know what he was thinking, or how much he was used to being asked for a photograph, but I did it anyway. Someone took the photo using my pre-smartphone-era Nokia N70.
 7. That photo got lost later, I never realised when and how. I regret that a lot, but I feel extremely lucky to have the chance to meet Niklaus Wirth in person. He made programming approachable to many generations, including mine, although a lot of us never became seasoned Pascal programmers. 
+
 8. Professor Niklaus Wirth passed away on January 1st, 2024, after 90 years of fruitful life. He was professionally active well until the past few years. I wish I end up like that.
