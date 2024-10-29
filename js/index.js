@@ -72,6 +72,7 @@ const renderFromAnchor = async () => {
 	document.title =  config['siteName']===undefined ? currentPageTitle : `${config['siteName']} - ${currentPageTitle}`;
 	contentHTML.innerHTML = currentPageContent;
 	document.getElementById('page-title').innerHTML = currentPageTitle
+	document.head.innerHTML += `<link rel="canonical" href="${document.location.href.replace('/?p=P0000','')}" ></link>`
 
 	if (currentPageIndex===0 && (config['showTOC'] || false)) //Home
 	{
