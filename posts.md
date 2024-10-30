@@ -55,35 +55,42 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 
 ## Bunt is My Favourite German Word
 
-1. Internet has an abundance of lame jokes about the German language. They mostly make fun of the length and pronunciation of German words, some times going the extra miles of bending the reality.
-2. I have been learning German for almost a decade, and have obviously had may fair share of headaches, but around grammar mostly: Those random Ns suffixing masculine nouns, the arbitrary order of parts of a sentence, or the 16 words for definitive article. 
-3. Regarding the vocabulary, although the words are mostly more difficult in memorisation, there are some nice surprises as well. An example that I always mention in word-length discussions is _oft_ for Often. It's also shorter than French _Parfois_, and maybe also from some other translations. 
-4. My _"favourite"_ German word is however _bunt_, meaning colourful. I like it for some reasons:
+Internet has an abundance of lame jokes about the German language. They mostly make fun of the length and pronunciation of German words, some times going the extra miles of bending the reality.
+
+I have been learning German for almost a decade, and have obviously had may fair share of headaches, but around grammar mostly: Those random Ns suffixing masculine nouns, the arbitrary order of parts of a sentence, or the 16 words for definitive article. 
+
+Regarding the vocabulary, although the words are mostly more difficult in memorisation, there are some nice surprises as well. An example that I always mention in word-length discussions is _oft_ for Often. It's also shorter than French _Parfois_, and maybe also from some other translations. 
+
+My _"favourite"_ German word is however _bunt_, meaning colourful. I like it for some reasons:
    1. It is short, shorter than English colourful or French coloré, or probably many other _"neighbouring"_ translations.
    2. It does not look like having been derived from the word for colour (_Farb_). It is a dedicated word. I haven't seen this in other languages I have a clue about: In all of them the word for colourful is derived from the word for colour.
-5. Looking into the [Etymological roots of the word](https://en.wiktionary.org/wiki/bunt#German) makes it even more interesting:
+
+Looking into the [Etymological roots of the word](https://en.wiktionary.org/wiki/bunt#German) makes it even more interesting:
    1.  It is derived from Latin _punctus_, which is also the root of the English word point. 
    2.  The original (now obsolete) meaning also seems to have been closer to the English relative: [spotted; speckled](https://en.wiktionary.org/wiki/bunt#Adjective).
-6. Therefore, it seems the meaning of _"bunt"_ in German has over time evolved and generalised, from original _"full of spots"_ to the more general _full of colours_.
-7. Another very interesting German word/expression is _"bitte"_, mostly for the diversity of the situations in which it is used. It reminds me of [خواهش می‌کنم
+
+Therefore, it seems the meaning of _"bunt"_ in German has over time evolved and generalised, from original _"full of spots"_ to the more general _full of colours_.
+
+Another very interesting German word/expression is _"bitte"_, mostly for the diversity of the situations in which it is used. It reminds me of [خواهش می‌کنم
 /xâheš mi-konam](https://en.wiktionary.org/wiki/%D8%AE%D9%88%D8%A7%D9%87%D8%B4_%D9%85%DB%8C%E2%80%8C%DA%A9%D9%86%D9%85) in my native Persian. 
 
 
 ## In Memory of Late Niklaus Wirth
 
-1. I have a bizarre aptitude in memorising isolated, seemingly non-important pieces of information from a bigger event or body of knowledge, and that for a long time, usually decades.
+I have a bizarre aptitude in memorising isolated, seemingly non-important pieces of information from a bigger event or body of knowledge, and that for a long time, usually decades.
 
-2. When I started to get interested in programming in late 90s, I didn't have a computer yet. It was all books and I consumed their content with the enthusiasm expected from 12 years old kid.
+When I started to get interested in programming in late 90s, I didn't have a computer yet. It was all books and I consumed their content with the enthusiasm expected from 12 years old kid.
 
-3. One book in particular was not about learning programming, but more of an "introduction to computers" in general, with a lot of history in it up until 90s. It was in this book that I first learned that the BASIC programming language was created by John Kemeny and Thomas Kurtz, Fortran by John Backus, C by Dennis Ritchie and Ken Thompson, and Pascal by Niklaus Wirth. I have never forgotten those names in the past 25 years, despite the fact that they had no meaning to me other than random pieces of information. So were mentions of some very niche programming languages such as Forth and SNOBOL, that I didn't see anywhere else beyond that one book, at least until many years later.   
+One book in particular was not about learning programming, but more of an "introduction to computers" in general, with a lot of history in it up until 90s. It was in this book that I first learned that the BASIC programming language was created by John Kemeny and Thomas Kurtz, Fortran by John Backus, C by Dennis Ritchie and Ken Thompson, and Pascal by Niklaus Wirth. I have never forgotten those names in the past 25 years, despite the fact that they had no meaning to me other than random pieces of information. So were mentions of some very niche programming languages such as Forth and SNOBOL, that I didn't see anywhere else beyond that one book, at least until many years later.   
 
-4. One of those names, however, materialised eventually into far more than a piece of information. In 2011, destiny placed me in Lausanne, Switzerland to start a PhD in computer science, and just a few months in, I saw an announcement that Professor Niklaus Wirth of ETH was coming to Lausanne for a keynote. 
+One of those names, however, materialised eventually into far more than a piece of information. In 2011, destiny placed me in Lausanne, Switzerland to start a PhD in computer science, and just a few months in, I saw an announcement that Professor Niklaus Wirth of ETH was coming to Lausanne for a keynote. 
 
-4. I didn't evn know that Wirth was Swiss. Seeing that name was like a message being thrown from my younger self, at the satrt of the journey that ended up in EPFL.
+I didn't evn know that Wirth was Swiss. Seeing that name was like a message being thrown from my younger self, at the satrt of the journey that ended up in EPFL.
 
-5. I attended the talk. I don't remember at all what it was about, but I remember him saying something along the lines of "I was a Professor when a byte was 6 bits". 
+I attended the talk. I don't remember at all what it was about, but I remember him saying something along the lines of "I was a Professor when a byte was 6 bits". 
 
-6. At the end of the talk, I approached him and asked to have a photo of him. I don't know what he was thinking, or how much he was used to being asked for a photograph, but I did it anyway. Someone took the photo using my pre-smartphone-era Nokia N70.
-7. That photo got lost later, I never realised when and how. I regret that a lot, but I feel extremely lucky to have the chance to meet Niklaus Wirth in person. He made programming approachable to many generations, including mine, although a lot of us never became seasoned Pascal programmers. 
+At the end of the talk, I approached him and asked to have a photo of him. I don't know what he was thinking, or how much he was used to being asked for a photograph, but I did it anyway. Someone took the photo using my pre-smartphone-era Nokia N70.
 
-8. Professor Niklaus Wirth passed away on January 1st, 2024, after 90 years of fruitful life. He was professionally active well until the past few years. I wish I end up like that.
+That photo got lost later, I never realised when and how. I regret that a lot, but I feel extremely lucky to have the chance to meet Niklaus Wirth in person. He made programming approachable to many generations, including mine, although a lot of us never became seasoned Pascal programmers. 
+
+Professor Niklaus Wirth passed away on January 1st, 2024, after 90 years of fruitful life. He was professionally active well until the past few years. I wish I end up like that.
