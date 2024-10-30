@@ -8,7 +8,7 @@ This is my first post
 
 ## An Alternative Syntax for Type Inference in Java
 
-1. Since Java 10 and [JEP 286](https://openjdk.org/jeps/286), Java has had local variable type inference with the ~~keyword~~reserved type name `var`:
+1. Since Java 10 and [JEP 286](https://openjdk.org/jeps/286), Java has had local variable type inference with the ~~keyword~~ reserved type name `var`:
 ```java
 var x  = new MyClass()
 ```
@@ -49,7 +49,7 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 
 7. The calculation in the previous step still leaves a residual of _0.53_ days (_50×0.5706=28.53_). If we want to account for this as well and still keep the year-month harmony, we need to add a third leap month for every 53 occurrences of the second leap month: _53×0.53=28.09_. This means every 60950 (_23*50*53_) years, there will be three leap months and a total of sixteen 28-day months in this hypothetical calendar year.
 
-8. The precision we have so far should be enough for ~~all~~most practical purposes. However, going one step further we can have a four-leap-months year every 19,016,400 years: _312×0.09=28.08_ and _23×50×53×312=19016400_.
+8. The precision we have so far should be enough for ~~all~~ most practical purposes. However, going one step further we can have a four-leap-months year every 19,016,400 years: _312×0.09=28.08_ and _23×50×53×312=19016400_.
 
 9. In summary, a 364-day year is perfectly divided into 13 equal-length months of 28 days, with each month comprising exactly 4 weeks. Every 23 years there will be a leap year which has one extra month, every 1150 years a leap year with two extra months, and every 60950 years a leap year with three extra months.
 
