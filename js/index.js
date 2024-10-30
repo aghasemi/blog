@@ -85,7 +85,7 @@ const renderFromAnchor = async () => {
 			return `<li><a class="p-3 toc" href="?p=${pageAnchor}" >${pageTitle}</a><br/></li>\n`
 		}).reverse();
 
-		contentHTML.innerHTML += '<ol type="I">' + posts.join(' ') +  '</ol>'
+		contentHTML.innerHTML += '<ol reversed type="I">' + posts.join(' ') +  '</ol>'
 	}
 
 	
