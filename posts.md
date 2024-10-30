@@ -55,9 +55,9 @@ is no longer syntactically wrong, but simply a contraction of `final var x = new
 
 ## Bunt is My Favourite German Word
 
-Internet has an abundance of lame jokes about the German language. They mostly make fun of the length and pronunciation of German words, some times going the extra miles of bending the reality.
+Internet has an abundance of lame jokes about the German language. They mostly make fun of the length and pronunciation of German words, sometimes going the extra miles of bending the reality.
 
-I have been learning German for almost a decade, and have obviously had may fair share of headaches, but around grammar mostly: Those random Ns suffixing masculine nouns, the arbitrary order of parts of a sentence, or the 16 words for definitive article. 
+I have been learning German for almost a decade, and have obviously had my fair share of headaches, but around grammar mostly: Those random Ns suffixing masculine nouns, the arbitrary order of parts of a sentence, or the 16 words for definitive article. 
 
 Regarding the vocabulary, although the words are mostly more difficult in memorisation, there are some nice surprises as well. An example that I always mention in word-length discussions is _oft_ for Often. It's also shorter than French _Parfois_, and maybe also from some other translations. 
 
@@ -85,7 +85,7 @@ One book in particular was not about learning programming, but more of an "intro
 
 One of those names, however, materialised eventually into far more than a piece of information. In 2011, destiny placed me in Lausanne, Switzerland to start a PhD in computer science, and just a few months in, I saw an announcement that Professor Niklaus Wirth of ETH was coming to Lausanne for a keynote. 
 
-I didn't evn know that Wirth was Swiss. Seeing that name was like a message being thrown from my younger self, at the satrt of the journey that ended up in EPFL.
+I didn't even know that Wirth was Swiss. Seeing that name was like a message being thrown from my younger self, at the satrt of the journey that ended up in EPFL.
 
 I attended the talk. I don't remember at all what it was about, but I remember him saying something along the lines of "I was a Professor when a byte was 6 bits". 
 
